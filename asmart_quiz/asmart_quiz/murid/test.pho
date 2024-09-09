@@ -1,0 +1,7 @@
+CREATE TABLE guru (
+	nama_guru VARCHAR(60) NULL DEFAULT NULL,
+	nokp_guru VARCHAR(12) NOT NULL,
+	katalaluan_guru VARCHAR(30) NULL DEFAULT NULL,
+	tahap VARCHAR(10) NULL DEFAULT NULL,
+	PRIMARY KEY (nokp_guru)
+)
